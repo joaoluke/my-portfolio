@@ -1,0 +1,18 @@
+{
+    "john": "John",
+    "softwareEngineer": "Software Engineer",
+    "about": "About me",
+    "career": "Career",
+    "contact": "Contact",
+    "hi": "Hi, I'm",
+    "Iam": "I am Front-End, Back-End and Mobile developer",
+    "andSoftwareEngineer": "and software engineer",
+    "overview": "Overview",
+    "introduction": "I'm a software developer with experience in TypeScript and JavaScript, and experience in frameworks like React, Laravel, Django and React Native. A fast learner, I'm passionate about creating scalable, easy-to-use software that solves real-world problems. Let's work together to bring your ideas to life! I am 22 years old, I am the father of 2 boys that I love very much, Jonathan Edwards, 5 years old and Charles Haddon, 1 year old. I am married to an Argentinian called Mirian Mabel. In my spare time I like to read, enjoy with my family, go to the beach, surf, I love watching football (Go Broncos!).",
+    "frontEnd": "Front-End Developer: React, Next.Js and Vue",
+    "mobile": "Mobile Developer: React Native",
+    "backEnd": "Back-End Developer: Python/Dajngo and PHP/Laravel",
+    "whatIHaveDone": "What I have done so far",
+    "workExperience": "Work Experience.",
+    "changeLanguage": "Change language"
+}
