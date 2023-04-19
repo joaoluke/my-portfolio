@@ -14,5 +14,10 @@
     "backEnd": "Desenvolvedor Back-End: Python/Dajngo e PHP/Laravel",
     "whatIHaveDone": "O que eu fiz até agora",
     "workExperience": "Experiência Profissional.",
-    "changeLanguage": "Alterar idioma"
+    "changeLanguage": "Alterar idioma",
+    "myPublications": "Minhas publicações",
+    "articles": "Artigos",
+    "articleOne": "Desafios e desenvolvimentos atuais na computação quântica",
+    "articleTwo": "Algoritmos quânticos e suas funcionalidades (os mais conhecidos)",
+    "articleThree": "Introdução à computação quântica: da programação clássica à programação quântica"
 }

@@ -14,5 +14,10 @@
     "backEnd": "Back-End Developer: Python/Dajngo and PHP/Laravel",
     "whatIHaveDone": "What I have done so far",
     "workExperience": "Work Experience.",
-    "changeLanguage": "Change language"
+    "changeLanguage": "Change language",
+    "myPublications": "My publications",
+    "articles": "Articles",
+    "articleOne": "Current challenges and developments in quantum computing",
+    "articleTwo": "Quantum algorithms and their functionalities (the best known)",
+    "articleThree": "Introduction to quantum computing: from classical programming to quantum programming"
 }

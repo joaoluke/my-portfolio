@@ -1,23 +1,28 @@
 import {
   mobile,
   backend,
-  creator,
+  django,
+  burgerKing,
+  pontue,
   web,
   javascript,
   typescript,
   html,
   css,
+  laravel,
   reactjs,
   redux,
   tailwind,
-  nodejs,
+  php,
   mongodb,
   git,
   figma,
+  wavecode,
   docker,
-  meta,
+  postgres,
   starbucks,
-  tesla,
+  vikko,
+  python,
   shopify,
   carrent,
   jobit,
@@ -81,24 +86,28 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Django",
+    icon: django,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgres
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "git",
@@ -116,50 +125,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "PHP Develop",
+    company_name: "Vikko Designer",
+    icon: vikko,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2020 - Sep 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Back-end web application development using Codeigniter with PHP.",
+      "Development and maintenance of web applications using BootStrap.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Developer",
+    company_name: "Wavecode",
+    icon: wavecode,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2020 - Sep 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Dealing with front-end demands, being responsible for that part of the application.",
+      "Creating and developing web applications with React.Js and Next.JS, implementing with Firebase.",
+      "Using Python to do web scraping on government portals to scrape public notices and store them in the database.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer",
+    company_name: "BugerKing (MediaWorks)",
+    icon: burgerKing,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participate in meetings with the manager to fix bugs in production.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full-Stack and Mobile Developer",
+    company_name: "Pontue",
+    icon: pontue,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -169,30 +178,27 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const articles = (t) => [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: t('articleOne'),
+    name: "Medium",
+    link: "CFO",
+    date: "12/01/2022",
+    image: "https://scontent-gru2-2.xx.fbcdn.net/v/t1.6435-9/48424823_1103302693176323_8938151161467240448_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4whP0ZIe9psAX-xLWSn&_nc_ht=scontent-gru2-2.xx&oh=00_AfApJNZe7EQVxRzP_08YkBs21qmEGloghrRX13Q0_uLJsA&oe=64672AD9",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: t('articleTwo'),
+    name: "Medium",
+    link: "COO",
+    date: "01/10/2022",
+    image: "https://scontent-gru2-2.xx.fbcdn.net/v/t1.6435-9/48424823_1103302693176323_8938151161467240448_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4whP0ZIe9psAX-xLWSn&_nc_ht=scontent-gru2-2.xx&oh=00_AfApJNZe7EQVxRzP_08YkBs21qmEGloghrRX13Q0_uLJsA&oe=64672AD9",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: t('articleThree'),
+    name: "Medium",
+    link: "CTO",
+    date: "12/12/2022",
+    image: "https://scontent-gru2-2.xx.fbcdn.net/v/t1.6435-9/48424823_1103302693176323_8938151161467240448_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4whP0ZIe9psAX-xLWSn&_nc_ht=scontent-gru2-2.xx&oh=00_AfApJNZe7EQVxRzP_08YkBs21qmEGloghrRX13Q0_uLJsA&oe=64672AD9",
   },
 ];
 
@@ -262,4 +268,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, articles, projects };
