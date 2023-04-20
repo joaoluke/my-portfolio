@@ -19,5 +19,7 @@
     "articles": "Artículos",
     "articleOne": "Desafíos actuales y desarrollos en computación cuántica",
     "articleTwo": "Algoritmos cuánticos y sus funcionalidades (los más conocidos)",
-    "articleThree": "Introducción a la computación cuántica: de la programación clásica a la programación cuántica"
+    "articleThree": "Introducción a la computación cuántica: de la programación clásica a la programación cuántica",
+    "messageSuccess": "Mensaje enviado correctamente",
+    "messageError": "No se pudo enviar el mensaje"
 }

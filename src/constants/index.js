@@ -66,14 +66,6 @@ const services = (t) => {
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -100,14 +92,6 @@ const technologies = [
   {
     name: "PostgreSQL",
     icon: postgres
-  },
-  {
-    name: "PHP",
-    icon: php,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
   },
   {
     name: "git",

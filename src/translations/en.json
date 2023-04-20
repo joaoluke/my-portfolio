@@ -19,5 +19,7 @@
     "articles": "Articles",
     "articleOne": "Current challenges and developments in quantum computing",
     "articleTwo": "Quantum algorithms and their functionalities (the best known)",
-    "articleThree": "Introduction to quantum computing: from classical programming to quantum programming"
+    "articleThree": "Introduction to quantum computing: from classical programming to quantum programming",
+    "messageSuccess": "Message sent successfully",
+    "messageError": "Failed to send message"
 }
